@@ -19,7 +19,7 @@ function exibirTextoNaTela(tag, texto) {
     } else {
         console.log("Web Speech API não suportada neste navegador.");
     }
-    // este if e else é para o texto da tela ser lido em voz alta.
+}    // este if e else é para o texto da tela ser lido em voz alta.
 
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1','Jogo do Número Secreto');
