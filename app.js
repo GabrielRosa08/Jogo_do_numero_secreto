@@ -19,8 +19,7 @@ function exibirTextoNaTela(tag, texto) {
     } else {
         console.log("Web Speech API não suportada neste navegador.");
     }
- // isso nao e do javascript, mas como tem um link no html eu posso fazer isso.
-} // entao esses brazilia ... e so pesquisar responsivevoice no google e o rate e a velocidade.
+    // este if e else é para o texto da tela ser lido em voz alta.
 
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1','Jogo do Número Secreto');
